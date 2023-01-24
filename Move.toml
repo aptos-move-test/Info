@@ -9,4 +9,4 @@ rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
 
 [addreses]
-sender = "0x1"
+sender = "_"
