@@ -7,9 +7,10 @@ compiled_package_info:
     aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
     core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    sender: a1e3aa355555eb0b94cb3de6c98c1a5dd33c45a3647b3b5697c21d4719339b2e
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 4B58472F49BBB367C6EBB67C4E744363C56EB0432AC63C841EF9785E9316F3C4
+  source_digest: BDB175E2C40FC88CF1AB89465335764A631C8350327445D43D0C9C3E44ACC1C1
   build_flags:
     dev_mode: false
     test_mode: false
@@ -17,7 +18,8 @@ compiled_package_info:
     generate_abis: false
     install_dir: ~
     force_recompilation: false
-    additional_named_addresses: {}
+    additional_named_addresses:
+      sender: a1e3aa355555eb0b94cb3de6c98c1a5dd33c45a3647b3b5697c21d4719339b2e
     architecture: ~
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
