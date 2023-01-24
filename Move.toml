@@ -3,9 +3,10 @@ name = 'Userinfo'
 version = '1.0.0'
 
 [dependencies.AptosFramework]
+Userinfo="_"
 git = 'https://github.com/aptos-labs/aptos-core.git'
 rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
 
 [addreses]
-sender = "7e8697fe143bc36df4d3c90735af289939555319f06672b66402f37cc802c24d"
+sender = "0x1"
